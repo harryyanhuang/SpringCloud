@@ -19,9 +19,9 @@ public class HystrixController {
     @GetMapping("/findAll")
     public Collection<Student> findAll(){
         Collection<Student> all = feignProviderClient.findAll();
-        return all;
+        return all;     //测试修改第二处
     }
-
+//暂时不提交
     @GetMapping("/index")
     public String index(){
     return    feignProviderClient.index();
