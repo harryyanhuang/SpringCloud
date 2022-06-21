@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student {
-    private int id;
+    private int id;//第二处修改
     private String name;
     private int age;
 }
