@@ -6,9 +6,9 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class systemConfig {
-
     @Bean
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
 }
+//Pro更新
