@@ -12,5 +12,3 @@ public class systemConfig {
     }
 }
 //Pro更新
-//pro更新的main
-//远程仓库修改
