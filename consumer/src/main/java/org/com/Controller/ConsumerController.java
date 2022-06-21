@@ -37,7 +37,7 @@ public class ConsumerController {
         return restTemplate.postForObject("http://localhost:8010/student/add",student,int.class);
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/delete/{id}") //第二个文件更改
     public void delete(@PathVariable("id") int id){
         System.out.println("删除"+id);
         restTemplate.delete("http://localhost:8010/student/delete/{id}",id);
