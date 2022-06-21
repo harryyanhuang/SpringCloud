@@ -31,7 +31,7 @@ public class StudentController {
     @DeleteMapping("/delete/{id}")
     public int delete(@PathVariable("id") int id){
         System.out.println(id);
-        return 1;
+        return 1;           //测试修改第一处
     }
 
     @PutMapping("/update")
