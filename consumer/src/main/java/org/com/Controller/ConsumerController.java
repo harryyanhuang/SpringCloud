@@ -45,7 +45,7 @@ public class ConsumerController {
 
     @DeleteMapping("/delete1/{id}")
     public void delete1(@PathVariable("id") int id){
-        System.out.println("删除"+id);
+        System.out.println("删除"+id);//第1处修改
         restTemplate.delete("http://localhost:8010/student/delete/{id}",id);
     }
 
