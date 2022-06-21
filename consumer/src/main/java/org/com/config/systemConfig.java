@@ -11,6 +11,4 @@ public class systemConfig {
         return new RestTemplate();
     }
 }
-//pro更新main
-//远程仓库修改
-//删除一项
+//Pro更新
