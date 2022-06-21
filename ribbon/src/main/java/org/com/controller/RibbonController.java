@@ -17,6 +17,7 @@ public class RibbonController {
 
     @GetMapping("/index")
     public String index(){
+
       return   restTemplate.getForObject("http://provider/student/index",String.class);
     }
 }
